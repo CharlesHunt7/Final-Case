@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # In[1]:
 
 
@@ -11,8 +8,6 @@ import numpy as np
 import requests
 import json
 import folium
-from folium import plugins
-from folium import IFrame
 from streamlit_folium import folium_static
 from streamlit_folium import st_folium
 import seaborn as sns
@@ -20,7 +15,6 @@ import plotly.express as px
 import streamlit as st
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-from sklearn.metrics import r2_score
 
 
 
